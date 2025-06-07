@@ -1,1 +1,8 @@
+com/tuempresa/flinkapp/SpeedRule.class
+com/tuempresa/flinkapp/ConnectedStreamsExample.class
 com/tuempresa/flinkapp/DataStreamJob.class
+com/tuempresa/flinkapp/ConnectedProcessFunction.class
+com/tuempresa/flinkapp/SpeedRuleSimulator.class
+com/tuempresa/flinkapp/GpsSignal.class
+com/tuempresa/flinkapp/SignalSimulator.class
+com/tuempresa/flinkapp/Alert.class
