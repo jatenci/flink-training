@@ -2,6 +2,7 @@ com/tuempresa/flinkapp/SpeedRule.class
 com/tuempresa/flinkapp/ConnectedStreamsExample.class
 com/tuempresa/flinkapp/ConnectedProcessFunction.class
 com/tuempresa/flinkapp/SignalSimulatorOutOfOrder.class
+com/tuempresa/flinkapp/WindowsExample.class
 com/tuempresa/flinkapp/WatermarksExample.class
 com/tuempresa/flinkapp/TestRun.class
 com/tuempresa/flinkapp/Alert.class

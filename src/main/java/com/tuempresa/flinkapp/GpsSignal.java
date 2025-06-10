@@ -17,4 +17,14 @@ public class GpsSignal {
         return "GpsSignal" + assetId + "speed" + speed + "timestamp" + timestamp;
     }
 
+    public String getAssetId(){
+        return assetId;
+    }
+    public int getSpeed(){
+        return speed;
+    }
+    public long getTimestamp(){
+        return timestamp;
+    }
+
 }

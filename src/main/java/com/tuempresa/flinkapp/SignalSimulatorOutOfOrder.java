@@ -12,19 +12,19 @@ public class SignalSimulatorOutOfOrder implements SourceFunction<GpsSignal> {
     private volatile boolean running = true;
 
     public void run(SourceContext<GpsSignal> ctx) throws InterruptedException {
-            ctx.collect(new GpsSignal("TRUCK-1",40 + rand.nextInt(50),10_000L));
-            Thread.sleep(1000); 
-            ctx.collect(new GpsSignal("TRUCK-1",40 + rand.nextInt(50),4_000L));
-            Thread.sleep(1000); 
-            ctx.collect(new GpsSignal("TRUCK-1",40 + rand.nextInt(50),16_000L));
-            Thread.sleep(1000); 
-            ctx.collect(new GpsSignal("TRUCK-1",40 + rand.nextInt(50),5_000L));
-            Thread.sleep(1000); 
-            ctx.collect(new GpsSignal("TRUCK-1",40 + rand.nextInt(50),21_000L));           
+            ctx.collect(new GpsSignal("TRUCK-1",100,10_000L));
+            Thread.sleep(1000);
+            ctx.collect(new GpsSignal("TRUCK-1",60,4_000L));
+            Thread.sleep(1000);
+            ctx.collect(new GpsSignal("TRUCK-1",90,16_000L));
+            Thread.sleep(1000);
+            ctx.collect(new GpsSignal("TRUCK-1",150,5_000L));
+            Thread.sleep(1000);
+            ctx.collect(new GpsSignal("TRUCK-1",90,21_000L));
         }
-    
+
     public void cancel() { running = false; }
 
     }
 
-    
+
